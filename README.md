@@ -13,13 +13,15 @@ This dataset contains information about students' performance based on their **p
     - `1`: Cleared the exam  
     - `0`: Did not clear the exam
 
-### Example:
+### Sample Records from the Dataset
 
-| StudentID | Name       | PracticeTestScore | AttendancePercentage | ClearedExam |
-|-----------|------------|-------------------|----------------------|-------------|
-| 1         | John Smith | 85                | 95                   | 1           |
-| 2         | Jane Doe   | 78                | 88                   | 1           |
-| 3         | Rahul Shah | 65                | 75                   | 0           |
+| StudentID | Name            | PracticeTestScore | AttendancePercentage | ClearedExam |
+|-----------|-----------------|-------------------|----------------------|-------------|
+| 1         | Aarav Sharma     | 85                | 95                   | 1           |
+| 2         | Priya Desai      | 78                | 88                   | 1           |
+| 3         | Rahul Patel      | 65                | 75                   | 0           |
+| 4         | Neha Gupta       | 92                | 98                   | 1           |
+| 5         | Vijay Kumar      | 58                | 60                   | 0           |
 
 ## Models Used
 Various machine learning models were used to predict whether a student will clear the exam based on their practice test scores and attendance. These models include:
@@ -29,7 +31,6 @@ Various machine learning models were used to predict whether a student will clea
 3. **Decision Tree**
 4. **Random Forest**
 5. **Support Vector Machine (SVM)**
-6. **Naive Bayes**
 
 ## Performance Metrics
 
@@ -47,8 +48,3 @@ The accuracy of the models on the test set was as follows:
 - **Decision Tree** and **Random Forest** models achieved perfect accuracy (100%).
 - **KNN** also performed well with a high accuracy of **99.5%**.
 - **Logistic Regression** and **SVM** achieved an accuracy of **94.47%**, suggesting room for improvement, especially for more complex relationships in the data.
-
-## How to Use the Dataset
-
-### Loading the Dataset:
-To load the dataset into a pandas DataFrame:
